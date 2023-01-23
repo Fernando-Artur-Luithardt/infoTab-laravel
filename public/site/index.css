@@ -84,7 +84,10 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  /* background-color: var(--bs-body-bg); */
+  background: linear-gradient(#212529 50%, var(--bs-gray-600) 50%);
+  height: 160vh;
+  width: 100vw;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -651,9 +654,9 @@ progress {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1290px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 1290px;
   }
 }
 @media (min-width: 1400px) {
@@ -2987,6 +2990,12 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #2FB842;
   border-color: #2FB842;
+}
+
+.btn-instagram {
+  color: #fff;
+  background: linear-gradient(#8134AF 7%, #DD2A7B);
+  border-color: linear-gradient(#8134AF 7%, #DD2A7B);
 }
 .btn-green:hover {
   color: #fff;

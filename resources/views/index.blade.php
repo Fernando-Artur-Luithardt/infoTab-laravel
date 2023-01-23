@@ -36,7 +36,7 @@
     <!-- Heading Row-->
     <div class="row gx-4 gx-lg-5 align-items-center my-5" style="min-height: 350px;">
         <div class="col-lg-7">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div id="firstCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="..." class="d-block w-100" alt="...">
@@ -48,11 +48,11 @@
                         <img src="..." class="d-block w-100" alt="...">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
@@ -73,37 +73,71 @@
       </div>
     </div>
     <!-- Content Row-->
-    <div class="row gx-4 gx-lg-5">
-      <div class="col-md-4 mb-5">
+    <div class="row gx-4 gx-lg-4">
+      <div class="col-md-3 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+          <i class="bi-alarm"></i>
+            <h2 class="card-title">Automação</h2>
+            <p class="card-text">Integração Alexa<br>Casa conectada<br>Portão eletrônico</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
             <h2 class="card-title">Informática</h2>
-            <p class="card-text">COMPUTADORES GAMER<br>PERIFÉRICOS<br>MANUTENÇÃO<br>WORKSTATION<br>REDE</p>
+            <p class="card-text">Manutenção<br>Montagem<br>Periféricos<br>Rede</p>
           </div>
-          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
         </div>
       </div>
-      <div class="col-md-4 mb-5">
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title">Computadores gamer</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at
-              dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi
-              labore.</p>
+            <h2 class="card-title">Segurança eletrônica</h2>
+            <p class="card-text">câmeras (venda e locação)<br>Alarmes (venda e locação)<br>Controle de acesso<br>Interfone</p>
           </div>
-          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
         </div>
       </div>
-      <div class="col-md-4 mb-5">
+      <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
-            <h2 class="card-title">Card Three</h2>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam,
-              maxime minus quam molestias corporis quod, ea minima accusamus.</p>
+            <h2 class="card-title">Segurança colaborativa</h2>
+            <p class="card-text">Residêncial<br>Comércio<br>Industrial<br>Condomínio</p>
           </div>
-          <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row gx-4 gx-lg-5 align-items-center my-5" style="min-height: 350px;">
+    <div class="col-lg-7">
+      <div id="secondCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#secondCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#secondCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    <div class="col-lg-5">
+      <h1 class="font-weight-light">Monitore o seu bem onde estiver</h1>
+      <p>Com o sistema de segurança eletrônica é possível ter controle do seu bem na palma da sua mão. Usando o seu smartphone você pode acessar os dispositivos de segurança de onde estiver</p>
+      <a class="btn btn-green" href="https://wa.me/554735227750"><i class="fa fa-whatsapp"></i> WhattsApp</a>
+      <a class="btn btn-instagram" href="https://www.instagram.com/infotab_info/"><i class="fa fa-instagram"></i> Instagram</a>
     </div>
   </div>
   <!-- Footer-->

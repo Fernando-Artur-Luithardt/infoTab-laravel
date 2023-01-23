@@ -15,4 +15,5 @@ mix
 .sass('resources/views/scss/style.scss', 'public/site/bootstrap.css')
 .scripts('node_modules/jquery/dist/jquery.js', 'public/site/jquery.js')
 .scripts('node_modules/bootstrap/dist/js/bootstrap.bundle.js', 'public/site/bootstrap.js')
-.css('resources/css/site.css', 'public/site/index.css');
+.css('resources/css/site.css', 'public/site/index.css')
+.css('node_modules/bootstrap-icons/font/bootstrap-icons.css', 'public/site/bootstrap-icons.css');
