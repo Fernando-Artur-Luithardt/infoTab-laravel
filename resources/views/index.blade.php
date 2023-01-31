@@ -32,48 +32,52 @@
     </div>
   </nav>
   <!-- Page Content-->
-  <div class="container px-5 px-lg-6">
-    <!-- Heading Row-->
-    <div class="row gx-4 gx-lg-5 align-items-center my-5" style="min-height: 350px;">
-        <div class="col-lg-7">
-            <div id="firstCarousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-      <div class="col-lg-5">
-        <h1 class="font-weight-light">Soluções em informática e sugurança eletrônica</h1>
-        <p>Soluções em informática e sugurança eletrônica, trabalhamos com Computadores gamer, worksation, Instalação e
-          manutenção de câmeras de segurança, venda e manutenção de no-break</p>
-        <a class="btn btn-green" href="https://wa.me/554735227750"><i class="fa fa-whatsapp"></i> WhattsApp</a>
-        <a class="btn btn-instagram" href="https://www.instagram.com/infotab_info/"><i class="fa fa-instagram"></i> Instagram</a>
+  <div class="container-1" style="min-height: 80vh;">
+    <div class="container">
+      <!-- Heading Row-->
+      <div class="row align-items-center " style="min-height: 70vh;">
+          <div class="col-lg-5">
+            <h1 style="font-size: 6vh;">Soluções em informática e sugurança eletrônica</h1>
+            <p style="font-size: 18px;">Trabalhamos com Computadores gamer, worksation, Instalação e
+              manutenção de câmeras de segurança, venda e manutenção de no-break</p>
+            <a class="btn btn-wpp" href="https://wa.me/554735227750"><i class="fa fa-whatsapp"></i> WhattsApp</a>
+            <a class="btn btn-instagram" href="https://www.instagram.com/infotab_info/"><i class="fa fa-instagram"></i> Instagram</a>
+          </div>
+          <div class="col-lg-7">
+              <div id="firstCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <img src="examplePhotos\example1.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="examplePhotos\example2.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                          <img src="examplePhotos\example3.webp" class="d-block w-100" alt="...">
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#firstCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#firstCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+          </div>
       </div>
     </div>
+  </div>
+  <div class="container px-4 px-lg-5">
     <!-- Call to Action-->
-    <div class="my-5 py-4 text-center">
-      <div class="font-weight-light" style="padding-top: 20px;">
+    <div class=" text-center">
+      <div class="" style="padding-top: 20px;">
         <H1>Nossos Serviços</H1>
       </div>
     </div>
     <!-- Content Row-->
-    <div class="row gx-4 gx-lg-4">
+    <div class="row ">
       <div class="col-md-3 mb-5">
         <div class="card h-100">
           <div class="card-body">
@@ -107,37 +111,6 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="row gx-4 gx-lg-5 align-items-center my-5" style="min-height: 350px;">
-    <div class="col-lg-7">
-      <div id="secondCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-              </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#secondCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#secondCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-          </button>
-      </div>
-    </div>
-    <div class="col-lg-5">
-      <h1 class="font-weight-light">Monitore o seu bem onde estiver</h1>
-      <p>Com o sistema de segurança eletrônica é possível ter controle do seu bem na palma da sua mão. Usando o seu smartphone você pode acessar os dispositivos de segurança de onde estiver</p>
-      <a class="btn btn-green" href="https://wa.me/554735227750"><i class="fa fa-whatsapp"></i> WhattsApp</a>
-      <a class="btn btn-instagram" href="https://www.instagram.com/infotab_info/"><i class="fa fa-instagram"></i> Instagram</a>
     </div>
   </div>
   <!-- Footer-->
